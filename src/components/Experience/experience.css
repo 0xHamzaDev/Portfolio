@@ -1,0 +1,21 @@
+body {
+    color: #e2e8f0;
+    margin: 0;
+    padding: 0;
+}
+
+.experience-section {
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+
+.experience-title {
+    padding: 1rem 0;
+    font-size: 3.75rem;
+    color: #915EFF;
+    text-shadow: 0 0 3px #915EFF;
+    opacity: 1;
+    transform: none;
+    font-weight: bold;
+}
