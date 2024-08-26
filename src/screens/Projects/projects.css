@@ -1,0 +1,146 @@
+body {
+	color: #e2e8f0;
+	margin: 0;
+	padding: 0;
+}
+
+.projects-section {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+}
+
+.projects-title {
+	padding: 1rem 0;
+	font-size: 3.75rem;
+	color: #915eff;
+	text-shadow: 0 0 3px #915eff;
+	opacity: 1;
+	transform: none;
+	font-weight: bold;
+}
+
+.projects-grid {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+}
+
+.project-card {
+	flex-basis: 100%;
+	background: rgba(13, 18, 36, 0.5);
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(13, 18, 36, 0.2);
+	padding: 2.5rem;
+	margin: 1rem;
+	text-align: center;
+	transition: background-color 0.5s;
+}
+
+.project-card:hover {
+	background: var(--card-background-color-hover);
+}
+
+.project-title {
+	font-size: 2rem;
+	color: var(--primary-color);
+	margin-bottom: 1rem;
+	text-align: left;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+.project-description {
+	font-size: 1rem;
+	color: #79828f;
+	line-height: 1.5;
+	text-align: left;
+	margin: 1rem 0 1rem 0.5rem;
+}
+
+.project-tags {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.project-tag {
+	background-color: #1a202c;
+	padding: 0.5rem 1.5rem;
+	border-radius: 5px;
+	margin: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.25rem;
+	font-size: 0.85rem;
+}
+
+@media (max-width: 1024px) {
+	.projects-title {
+		font-size: 3rem;
+	}
+
+	.project-card {
+		flex-basis: 48%;
+		margin: 1rem 0.5rem;
+	}
+
+	.project-title {
+		font-size: 1.75rem;
+	}
+
+	.project-description {
+		font-size: 0.9rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.projects-title {
+		font-size: 2.5rem;
+	}
+
+	.project-card {
+		flex-basis: 100%;
+		margin: 1rem 0;
+	}
+
+	.project-title {
+		font-size: 1.5rem;
+	}
+
+	.project-description {
+		font-size: 0.85rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.projects-title {
+		font-size: 2rem;
+	}
+
+	.project-card {
+		padding: 1.5rem;
+	}
+
+	.project-title {
+		font-size: 1.25rem;
+	}
+
+	.project-description {
+		font-size: 0.8rem;
+	}
+
+	.project-tags {
+		flex-direction: column;
+	}
+
+	.project-tag {
+		margin: 0.25rem 0;
+		width: 100%;
+		box-sizing: border-box;
+	}
+}

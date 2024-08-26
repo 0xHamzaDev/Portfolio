@@ -1,0 +1,143 @@
+.hero-section {
+	height: calc(100vh - 100px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5rem;
+	font-size: 1.5rem;
+}
+
+.hero-title {
+	font-size: 5rem;
+	text-align: center;
+	color: var(--text-color);
+	letter-spacing: normal;
+	text-shadow: 0 0 4px #915eff;
+}
+
+.hero-title .hero-name {
+	font-weight: bold;
+	background: linear-gradient(to right, #915eff, #aa6da3);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.hero-subtitle {
+	font-size: 1.5rem;
+	letter-spacing: 0.03em;
+	text-align: center;
+	color: #94a3b8;
+	line-height: 1.5em;
+}
+
+.hero-resume {
+	display: flex;
+	align-items: center;
+	padding-top: 1rem;
+	gap: 1rem;
+}
+
+.resume-button {
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	transition:
+		background 0.3s,
+		border 0.3s;
+}
+
+.resume-button:hover {
+	border-color: transparent;
+	background: var(--primary-color);
+}
+
+.hero-social {
+	padding-top: 1rem;
+}
+
+.social-list {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.social-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	background: rgba(243, 244, 246, 0.2);
+	border-radius: 0.5rem;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	transition:
+		transform 0.3s,
+		background 0.3s;
+}
+
+.social-link:hover {
+	transform: scale(0.95);
+	background: var(--primary-color);
+}
+
+.hero-social > .social-link {
+	color: white;
+}
+
+.social-icon,
+.social-icon-hover {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: transform 0.3s;
+}
+
+.social-icon-hover {
+	transform: translateY(250%);
+}
+
+.social-link:hover .social-icon-hover {
+	transform: translateY(-50%);
+}
+
+.social-link:hover .social-icon {
+	transform: translateY(-250%);
+}
+
+@media (max-width: 768px) {
+	.hero-title {
+		font-size: 3.5rem;
+		text-align: center;
+		letter-spacing: normal;
+	}
+
+	.hero-social {
+		padding-top: 0.5rem;
+	}
+
+	.social-list {
+		justify-content: center;
+	}
+
+	.social-link {
+		width: 44px;
+		height: 44px;
+	}
+
+	.social-icon,
+	.social-icon-hover {
+		transition: transform 0.2s;
+	}
+}
