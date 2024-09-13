@@ -17,9 +17,9 @@ const Hero = () => {
 					<div className="hero-subtitle">
 						A Full-Stack Software Engineer
 					</div>
-					<div className="hero-resume">
+					{/* <div className="hero-resume">
 						<div className="resume-button">Download My Resume</div>
-					</div>
+					</div> */}
 					<div className="hero-social">
 						<ul className="social-list">
 							<li>
