@@ -1,40 +1,37 @@
 import { useState } from 'react';
-import './hero.css';
+import './footer.css';
 import { BsGithub, BsTwitterX, BsLinkedin } from 'react-icons/bs';
-import { MdDownload } from 'react-icons/md';
-import { MdEmail } from 'react-icons/md';
 import { FaLinkedinIn } from 'react-icons/fa6';
+import { MdEmail } from 'react-icons/md';
 
-const Hero = () => {
+const Footer = () => {
 	return (
 		<>
-			<section className="hero-section">
-				<div className="hero-container">
-					<h1 className="hero-title">
-						Hello, I'm{' '}
-						<span className="hero-name">Hamza Alsherif</span>
-					</h1>
-					<div className="hero-subtitle">
-						A Full-Stack Software Engineer and Data Scientist
+			<div className="footer-container">
+				<div className="footer-content">
+					<div className="footer-gradient">
+						<div className="footer-gradient-line"></div>
 					</div>
-					<div className="hero-resume">
-						<div className="resume-button">Download My Resume</div>
+					<div className="footer-text">
+						<p className="footer-credits">
+							© 2024 Hamza Alsherif. All rights reserved.
+						</p>
 					</div>
-					<div className="hero-social">
+					<div className="footer-social">
 						<ul className="social-list">
 							<li>
 								<a
 									className="social-link"
 									target="_blank"
-									style={{ width: '52px', height: '52px' }}
+									style={{ width: '34px', height: '34px' }}
 									href="https://www.linkedin.com/in/hamza-alsharif-6a09a4221/"
 									aria-label="LinkedIn Link"
 								>
 									<div className="social-icon">
-										<FaLinkedinIn size={22} />
+										<FaLinkedinIn size={20} />
 									</div>
 									<div className="social-icon-hover">
-										<FaLinkedinIn size={22} />
+										<FaLinkedinIn size={20} />
 									</div>
 								</a>
 							</li>
@@ -42,15 +39,15 @@ const Hero = () => {
 								<a
 									className="social-link"
 									target="_blank"
-									style={{ width: '52px', height: '52px' }}
-									href="https://github.com/StrayDevv"
+									style={{ width: '34px', height: '34px' }}
+									href="https://github.com/0xHamzaDev"
 									aria-label="Github Link"
 								>
 									<div className="social-icon">
-										<BsGithub size={22} />
+										<BsGithub size={20} />
 									</div>
 									<div className="social-icon-hover">
-										<BsGithub size={22} />
+										<BsGithub size={20} />
 									</div>
 								</a>
 							</li>
@@ -58,15 +55,15 @@ const Hero = () => {
 								<a
 									className="social-link"
 									target="_blank"
-									style={{ width: '52px', height: '52px' }}
+									style={{ width: '34px', height: '34px' }}
 									href="mailto:enghamzaalsherif@gmail.com"
 									aria-label="Email"
 								>
 									<div className="social-icon">
-										<MdEmail size={22} />
+										<MdEmail size={20} />
 									</div>
 									<div className="social-icon-hover">
-										<MdEmail size={22} />
+										<MdEmail size={20} />
 									</div>
 								</a>
 							</li>
@@ -74,24 +71,24 @@ const Hero = () => {
 								<a
 									className="social-link"
 									target="_blank"
-									style={{ width: '52px', height: '52px' }}
-									href="https://x.com/StraySA1"
-									aria-label="X Link"
+									style={{ width: '34px', height: '34px' }}
+									href="https://x.com/hamza_alsherif"
+									aria-label="X"
 								>
 									<div className="social-icon">
-										<BsTwitterX size={22} />
+										<BsTwitterX size={20} />
 									</div>
 									<div className="social-icon-hover">
-										<BsTwitterX size={22} />
+										<BsTwitterX size={20} />
 									</div>
 								</a>
 							</li>
 						</ul>
 					</div>
 				</div>
-			</section>
+			</div>
 		</>
 	);
 };
 
-export default Hero;
+export default Footer;

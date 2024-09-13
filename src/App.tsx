@@ -1,6 +1,6 @@
 // Packages
 import React from 'react';
-import { Navbar, Hero, About, Skills, Projects, Experience, ScrollToTop, Footer, Particles } from './screens';
+import { Navbar, Hero, About, Skills, Projects, Experience, ScrollToTop, Footer, Particles } from './components';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -13,7 +13,6 @@ function App() {
 				<About />
 				<Skills />
 				<Projects />
-				<Experience/>
 				<ScrollToTop />
 			</main>
 			<Particles />

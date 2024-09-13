@@ -2,7 +2,6 @@ export { default as Navbar } from './Navbar/navbar';
 export { default as About } from './About/about';
 export { default as Projects } from './Projects/projects';
 export { default as Footer } from './Footer/footer';
-export { default as Experience } from './Experience/experience';
 export { default as Hero } from './Hero/hero';
 export { default as ScrollToTop } from './ScrollToTop/scroll-to-top';
 export { default as Particles } from './Particles/particles';
