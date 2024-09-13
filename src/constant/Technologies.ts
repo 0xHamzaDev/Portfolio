@@ -21,6 +21,7 @@ import csharpImg from '../components/Skills/images/csharp.png';
 
 export const Technologies = {
     ['React']: reactImg,
+    ['React Native']: reactImg,
     ['Node']: nodejsImg,
     ['Express']: expressjsImg,
     ['MongoDB']: mongodbImg,

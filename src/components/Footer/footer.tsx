@@ -56,7 +56,7 @@ const Footer = () => {
 									className="social-link"
 									target="_blank"
 									style={{ width: '34px', height: '34px' }}
-									href="mailto:enghamzaalsherif@gmail.com"
+									href="mailto:me@hamz4.com"
 									aria-label="Email"
 								>
 									<div className="social-icon">

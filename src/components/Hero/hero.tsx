@@ -59,7 +59,7 @@ const Hero = () => {
 									className="social-link"
 									target="_blank"
 									style={{ width: '52px', height: '52px' }}
-									href="mailto:enghamzaalsherif@gmail.com"
+									href="mailto:me@hamz4.com"
 									aria-label="Email"
 								>
 									<div className="social-icon">

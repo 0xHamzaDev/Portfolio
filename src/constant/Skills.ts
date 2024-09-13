@@ -55,4 +55,5 @@ export const skills = [
     { id: 24, title: 'Flutter', Image: flutterImg, category: 'Front-End' },
     { id: 25, title: 'FileZilla', Image: filezillaImg, category: 'DevOps' },
     { id: 26, title: 'Svelte', Image: svelteImg, category: 'Front-End' },
+    { id: 27, title: 'PostgresSQL', Image: 'https://camo.githubusercontent.com/ee0ca6b71862b0da9afd77dea843c34c581ee75be8e43189c669dd6c649b41b4/68747470733a2f2f69636f6e2e69636570616e656c2e696f2f546563686e6f6c6f67792f7376672f506f73746772657353514c2e737667', category: 'Database' },
 ];
